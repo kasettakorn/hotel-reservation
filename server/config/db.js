@@ -4,6 +4,7 @@ const config = require("config");
 // เรียก mongodb ใน json ที่เราสร้าง
 const db = config.get("mongoURI");
 
+
 const connectDB = async () => {
   try {
     // ใส่ await เพื่อให้รอจนเสร็จก่อน
